@@ -1,0 +1,91 @@
+--track@bg_interlocking_margin:ざぶとん左右位置,-2000,2000,0,1
+--track@bg_x:ざぶとんサイズx,0,2000,200,1
+--track@bg_y:ざぶとんサイズy,0,2000,150,1
+--color@bg_col:ざぶとん色,0x1919c8
+--track@bg_overal_posx:ざぶとん全体x,-100000,100000,0,1
+--track@bg_overal_posy:ざぶとん全体y,-100000,100000,0,1
+--track@bg_posx:ざぶとん背景x,-100000,100000,0,1
+--track@bg_posy:ざぶとん背景y,-100000,100000,0,1
+--track@bg_alpha:ざぶとん透明度,0,100,100,0.1
+--track@bg_text_posx:ざぶとん文字x,-100000,100000,0,1
+--track@bg_text_posy:ざぶとん文字y,-100000,100000,0,1
+--track@bg_start:ざぶとん開始文字(個別オブジェクト時),0,500,1,1
+--track@bg_end:ざぶとん終了文字(個別オブジェクト時),0,500,2,1
+--track@bg_frame_size:ざぶとん枠線サイズ,0,500,0,1
+--track@bg_frame_blur:ざぶとん枠線ぼかし,0,100,0,1
+--color@bg_frame_col:ざぶとん枠色,0xf5f5f5
+
+-- 外部モジュールの読み込み
+-- コメントアウトしている仮想バッファのサイズ計算に使用している。それ以外では使っていないため現在は不要。
+local condition, AKIRA_helper = pcall(require, "AKIRA_aviutl2_helper")
+
+local AKIRA_h = (condition and AKIRA_helper) or nil
+local is_multi = obj.getoption("multi_object")
+local idx = obj.index + 1
+
+-- 仮想バッファの最小サイズを計算したかったが、うまくいかなかった（作成者の技量問題）ためコメントアウト
+--local w,h = AKIRA_h.get_text_size()
+--local final_w = w + bg_x + bg_overal_posx + bg_posx + bg_text_posx + bg_frame_size + bg_interlocking_margin
+--local final_h = h + bg_y + bg_overal_posy + bg_posy + bg_text_posy + bg_frame_size
+
+-- 仮想バッファのサイズ
+local final_w = obj.screen_w
+local final_h = obj.screen_h
+
+-- 仮想バッファのサイズに追加するサイズ。
+-- 今は追加していないので0にしているが、後から追加する予定があれば書き換えて仮想バッファのサイズを追加できる。
+local add_w, add_h = 0, 0
+
+-- 文字描画フェーズ
+if obj.index == 0 then
+    obj.setoption("drawtarget", "tempbuffer", final_w + add_w, final_h + add_h)
+    obj.clearbuffer("tempbuffer")
+end
+
+obj.setoption("drawtarget", "tempbuffer")
+
+local scale = obj.sx
+local alpha = obj.getvalue("alpha")
+
+local target_ox, target_oy = obj.ox, obj.oy
+
+-- 個別オブジェクトが有効なら
+if is_multi then
+    if idx >= bg_start and idx <= bg_end then
+        obj.draw(target_ox,target_oy)
+    elseif idx < bg_start  then
+        obj.draw(target_ox - bg_interlocking_margin,target_oy, obj.oz, scale, alpha, obj.rx, obj.ry, obj.rz)
+    elseif idx > bg_end then
+        obj.draw(target_ox + bg_interlocking_margin,target_oy, obj.oz, scale, alpha, obj.rx, obj.ry, obj.rz)
+    end
+
+-- 個別オブジェクトが無効なら
+else
+    obj.draw(target_ox,target_oy, obj.oz, scale, alpha, obj.rx, obj.ry, obj.rz)
+end
+
+-- 背景描画・合成フェーズ
+if obj.index == obj.num - 1 then
+    obj.copybuffer("cache:text_parts", "tempbuffer")
+    obj.clearbuffer("tempbuffer")
+
+    obj.load("figure", "四角形", bg_col, 100)
+    obj.effect("リサイズ", "拡大率", 100, "X", bg_x, "Y", bg_y)
+    if bg_frame_size > 0 then
+        obj.effect("縁取り", "サイズ", bg_frame_size, "ぼかし", bg_frame_blur, "縁色", bg_frame_col)
+    end
+    obj.draw(bg_posx + bg_overal_posx,bg_posy + bg_overal_posy)
+
+    obj.copybuffer("object", "cache:text_parts")
+    obj.draw(bg_text_posx + bg_overal_posx,bg_text_posy + bg_overal_posy)
+
+    obj.setoption("drawtarget", "framebuffer")
+    obj.load("tempbuffer")
+else
+    --　"cache:text_parts"から読み込んだ以外の文字を表示させない処理
+    obj.clearbuffer("object")
+    -- 下記でも可能なようだ
+    --obj.load("tempbuffer")
+    --obj.alpha = 0
+    --obj.draw()
+end
