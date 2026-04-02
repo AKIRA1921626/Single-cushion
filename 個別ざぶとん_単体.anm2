@@ -1,14 +1,14 @@
---track@bg_interlocking_margin:ざぶとん左右位置,-2000,2000,0,1
---track@bg_x:ざぶとんサイズx,0,2000,200,1
---track@bg_y:ざぶとんサイズy,0,2000,150,1
+--track@bg_interlocking_margin:ざぶとん左右位置,-2000,2000,20,1
+--track@bg_x:ざぶとんサイズX,0,2000,200,1
+--track@bg_y:ざぶとんサイズY,0,2000,150,1
 --color@bg_col:ざぶとん色,0x1919c8
---track@bg_overal_posx:ざぶとん全体x,-100000,100000,0,1
---track@bg_overal_posy:ざぶとん全体y,-100000,100000,0,1
---track@bg_posx:ざぶとん背景x,-100000,100000,0,1
---track@bg_posy:ざぶとん背景y,-100000,100000,0,1
+--track@bg_posx:ざぶとん背景X,-100000,100000,0,1
+--track@bg_posy:ざぶとん背景Y,-100000,100000,0,1
+--track@bg_text_posx:ざぶとん文字X,-100000,100000,0,1
+--track@bg_text_posy:ざぶとん文字Y,-100000,100000,0,1
+--track@bg_overal_posx:ざぶとん全体X,-100000,100000,0,1
+--track@bg_overal_posy:ざぶとん全体Y,-100000,100000,0,1
 --track@bg_alpha:ざぶとん透明度,0,100,100,0.1
---track@bg_text_posx:ざぶとん文字x,-100000,100000,0,1
---track@bg_text_posy:ざぶとん文字y,-100000,100000,0,1
 --track@bg_start:ざぶとん開始文字(個別オブジェクト時),0,500,1,1
 --track@bg_end:ざぶとん終了文字(個別オブジェクト時),0,500,2,1
 --track@bg_frame_size:ざぶとん枠線サイズ,0,500,0,1
@@ -52,7 +52,7 @@ local target_ox, target_oy = obj.ox, obj.oy
 -- 個別オブジェクトが有効なら
 if is_multi then
     if idx >= bg_start and idx <= bg_end then
-        obj.draw(target_ox,target_oy)
+        obj.draw(target_ox + bg_text_posx + bg_overal_posx,target_oy + bg_text_posy + bg_overal_posy)
     elseif idx < bg_start  then
         obj.draw(target_ox - bg_interlocking_margin,target_oy, obj.oz, scale, alpha, obj.rx, obj.ry, obj.rz)
     elseif idx > bg_end then
@@ -74,10 +74,10 @@ if obj.index == obj.num - 1 then
     if bg_frame_size > 0 then
         obj.effect("縁取り", "サイズ", bg_frame_size, "ぼかし", bg_frame_blur, "縁色", bg_frame_col)
     end
-    obj.draw(bg_posx + bg_overal_posx,bg_posy + bg_overal_posy)
+    obj.draw(bg_posx + bg_overal_posx,bg_posy + bg_overal_posy,0,1,bg_alpha/100)
 
     obj.copybuffer("object", "cache:text_parts")
-    obj.draw(bg_text_posx + bg_overal_posx,bg_text_posy + bg_overal_posy)
+    obj.draw()
 
     obj.setoption("drawtarget", "framebuffer")
     obj.load("tempbuffer")
