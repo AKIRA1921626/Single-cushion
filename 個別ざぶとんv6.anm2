@@ -1,0 +1,268 @@
+--track@bg_interlocking_sizex:ざぶとん全体x,0,2000,0,1
+--track@bg_interlocking_sizey:ざぶとん全体y,0,2000,0,1
+--track@bg_interlocking_margin:ざぶとん左右余白,-2000,2000,20,1
+--track@bg_interlocking_frame_size:ざぶとん枠線サイズ,0,500,0,1
+--track@bg_interlocking_frame_blur:ざぶとん枠線ぼかし,0,100,0,1
+--color@bg_interlocking_frame_col:ざぶとん枠線色,0xf5f5f5
+
+--check@bg_enable1:ざぶとん1,1
+--track@bg_x1:ざぶとん1サイズx,0,2000,0,1
+--track@bg_y1:ざぶとん1サイズy,0,2000,0,1
+--color@bg_col1:ざぶとん1色,0x1919c8
+--track@bg_overall_posx1:ざぶとん1全体x,-100000,100000,0,1
+--track@bg_overall_posy1:ざぶとん1全体y,-100000,100000,0,1
+--track@bg_posx1:ざぶとん1背景x,-100000,100000,0,1
+--track@bg_posy1:ざぶとん1背景y,-100000,100000,0,1
+--track@bg_alpha1:ざぶとん1透明度,0,100,100,0.1
+--track@bg_text_posx1:ざぶとん1文字x,-100000,100000,0,1
+--track@bg_text_posy1:ざぶとん1文字y,-100000,100000,0,1
+--track@bg_start1:ざぶとん1開始文字(個別オブジェクト時),0,500,1,1
+--track@bg_end1:ざぶとん1終了文字(個別オブジェクト時),0,500,2,1
+--track@bg_frame_size1:ざぶとん1枠線サイズ,0,500,0,1
+--track@bg_frame_blur1:ざぶとん1枠線ぼかし,0,100,0,1
+--color@bg_frame_col1:ざぶとん1枠色,0xf5f5f5
+
+--check@bg_enable2:ざぶとん2,1
+--track@bg_x2:ざぶとん2サイズx,0,2000,0,1
+--track@bg_y2:ざぶとん2サイズy,0,2000,0,1
+--color@bg_col2:ざぶとん2色,0xc81919
+--track@bg_overall_posx2:ざぶとん2全体x,-100000,100000,0,1
+--track@bg_overall_posy2:ざぶとん2全体y,-100000,100000,0,1
+--track@bg_posx2:ざぶとん2背景x,-100000,100000,0,1
+--track@bg_posy2:ざぶとん2背景y,-100000,100000,0,1
+--track@bg_alpha2:ざぶとん2透明度,0,100,100,0.1
+--track@bg_text_posx2:ざぶとん2文字x,-100000,100000,0,1
+--track@bg_text_posy2:ざぶとん2文字y,-100000,100000,0,1
+--track@bg_start2:ざぶとん2開始文字(個別オブジェクト時),0,500,3,1
+--track@bg_end2:ざぶとん2終了文字(個別オブジェクト時),0,500,6,1
+--track@bg_frame_size2:ざぶとん2枠線サイズ,0,500,0,1
+--track@bg_frame_blur2:ざぶとん2枠線ぼかし,0,100,0,1
+--color@bg_frame_col2:ざぶとん2枠色,0xf5f5f5
+
+--group:ざぶとん3-5,false
+
+--check@bg_enable3:ざぶとん3,0
+--track@bg_x3:ざぶとん3サイズx,0,2000,0,1
+--track@bg_y3:ざぶとん3サイズy,0,2000,0,1
+--color@bg_col3:ざぶとん3色,0x641e64
+--track@bg_overall_posx3:ざぶとん3全体x,-100000,100000,0,1
+--track@bg_overall_posy3:ざぶとん3全体y,-100000,100000,0,1
+--track@bg_posx3:ざぶとん3背景x,-100000,100000,0,1
+--track@bg_posy3:ざぶとん3背景y,-100000,100000,0,1
+--track@bg_alpha3:ざぶとん3透明度,0,100,100,0.1
+--track@bg_text_posx3:ざぶとん3文字x,-100000,100000,0,1
+--track@bg_text_posy3:ざぶとん3文字y,-100000,100000,0,1
+--track@bg_start3:ざぶとん3開始文字(個別オブジェクト時),0,500,7,1
+--track@bg_end3:ざぶとん3終了文字(個別オブジェクト時),0,500,10,1
+--track@bg_frame_size3:ざぶとん3枠線サイズ,0,500,0,1
+--track@bg_frame_blur3:ざぶとん3枠線ぼかし,0,100,0,1
+--color@bg_frame_col3:ざぶとん3枠色,0xf5f5f5
+
+--check@bg_enable4:ざぶとん4,0
+--track@bg_x4:ざぶとん4サイズx,0,2000,0,1
+--track@bg_y4:ざぶとん4サイズy,0,2000,0,1
+--color@bg_col4:ざぶとん4色,0x329632
+--track@bg_overall_posx4:ざぶとん4全体x,-100000,100000,0,1
+--track@bg_overall_posy4:ざぶとん4全体y,-100000,100000,0,1
+--track@bg_posx4:ざぶとん4背景x,-100000,100000,0,1
+--track@bg_posy4:ざぶとん4背景y,-100000,100000,0,1
+--track@bg_alpha4:ざぶとん4透明度,0,100,100,0.1
+--track@bg_text_posx4:ざぶとん4文字x,-100000,100000,0,1
+--track@bg_text_posy4:ざぶとん4文字y,-100000,100000,0,1
+--track@bg_start4:ざぶとん4開始文字(個別オブジェクト時),0,500,0,1
+--track@bg_end4:ざぶとん4終了文字(個別オブジェクト時),0,500,0,1
+--track@bg_frame_size4:ざぶとん4枠線サイズ,0,500,0,1
+--track@bg_frame_blur4:ざぶとん4枠線ぼかし,0,100,0,1
+--color@bg_frame_col4:ざぶとん4枠色,0xf5f5f5
+
+--check@bg_enable5:ざぶとん5,0
+--track@bg_x5:ざぶとん5サイズx,0,2000,0,1
+--track@bg_y5:ざぶとん5サイズy,0,2000,0,1
+--color@bg_col5:ざぶとん5色,0xe6e60a
+--track@bg_overall_posx5:ざぶとん5全体x,-100000,100000,0,1
+--track@bg_overall_posy5:ざぶとん5全体y,-100000,100000,0,1
+--track@bg_posx5:ざぶとん5背景x,-100000,100000,0,1
+--track@bg_posy5:ざぶとん5背景y,-100000,100000,0,1
+--track@bg_alpha5:ざぶとん5透明度,0,100,100,0.1
+--track@bg_text_posx5:ざぶとん5文字x,-100000,100000,0,1
+--track@bg_text_posy5:ざぶとん5文字y,-100000,100000,0,1
+--track@bg_start5:ざぶとん5開始文字(個別オブジェクト時),0,500,0,1
+--track@bg_end5:ざぶとん5終了文字(個別オブジェクト時),0,500,0,1
+--track@bg_frame_size5:ざぶとん5枠線サイズ,0,500,0,1
+--track@bg_frame_blur5:ざぶとん5枠線ぼかし,0,100,0,1
+--color@bg_frame_col5:ざぶとん5枠色,0xf5f5f5
+--group
+
+--check@bg_resize:ざぶとんのサイズをテキストのサイズに合わせる,1
+--check@alter_resize:枠線のサイズをテキストのサイズに合わせる,1
+
+-- 外部モジュールの読み込み
+local condition, AKIRA_helper = pcall(require, "AKIRA_aviutl2_helper")
+
+local AKIRA_h = (condition and AKIRA_helper) or nil
+local is_multi = obj.getoption("multi_object")
+local idx = obj.index + 1
+
+-- 仮想バッファのサイズ (単体版をもとに仮想バッファは大きめにする)
+local final_w = obj.screen_w
+local final_h = obj.screen_h
+local add_w, add_h = 0, 0
+
+-- 文字描画フェーズ
+if obj.index == 0 then
+    obj.setoption("drawtarget", "tempbuffer", final_w + add_w, final_h + add_h)
+    obj.clearbuffer("tempbuffer")
+    _G.ZABUTON_V6_CHARS = {}
+end
+
+obj.setoption("drawtarget", "tempbuffer")
+
+local scale = obj.sx
+local alpha = obj.getvalue("alpha")
+local target_ox, target_oy = obj.ox, obj.oy
+
+-- 文字ごとのサイズ・位置情報を記憶
+_G.ZABUTON_V6_CHARS[idx] = { ox = obj.ox, oy = obj.oy, w = obj.w, h = obj.h }
+
+local configs = {
+    {en = bg_enable1, s = bg_start1, e = bg_end1, px = bg_overall_posx1 + bg_text_posx1, py = bg_overall_posy1 + bg_text_posy1},
+    {en = bg_enable2, s = bg_start2, e = bg_end2, px = bg_overall_posx2 + bg_text_posx2, py = bg_overall_posy2 + bg_text_posy2},
+    {en = bg_enable3, s = bg_start3, e = bg_end3, px = bg_overall_posx3 + bg_text_posx3, py = bg_overall_posy3 + bg_text_posy3},
+    {en = bg_enable4, s = bg_start4, e = bg_end4, px = bg_overall_posx4 + bg_text_posx4, py = bg_overall_posy4 + bg_text_posy4},
+    {en = bg_enable5, s = bg_start5, e = bg_end5, px = bg_overall_posx5 + bg_text_posx5, py = bg_overall_posy5 + bg_text_posy5},
+}
+
+if is_multi then
+    local margin_offset_x = 0
+    
+    for i, c in ipairs(configs) do
+        if c.en ~= 0 then
+            if idx >= c.s and idx <= c.e then
+                -- 当該ざぶとんの対象文字
+                target_ox = target_ox + c.px
+                target_oy = target_oy + c.py
+            elseif idx < c.s then
+                -- 対象ざぶとんより前の文字を余白分ずらす
+                margin_offset_x = margin_offset_x - bg_interlocking_margin
+            elseif idx > c.e then
+                -- 対象ざぶとんより後の文字を余白分ずらす
+                margin_offset_x = margin_offset_x + bg_interlocking_margin
+            end
+        end
+    end
+    
+    -- すべてのざぶとん設定から累積された余白変位を反映
+    target_ox = target_ox + margin_offset_x
+end
+
+obj.draw(target_ox, target_oy, obj.oz, scale, alpha, obj.rx, obj.ry, obj.rz)
+
+-- 背景描画・合成フェーズ
+if obj.index == obj.num - 1 then
+    obj.copybuffer("cache:text_parts", "tempbuffer")
+    obj.clearbuffer("tempbuffer")
+
+    -- リサイズ係数の取得
+    local text_resize_val = 1
+    if AKIRA_h and alter_resize == 1 then
+        text_resize_val = AKIRA_h.get_text_resize() or 1
+    end
+
+    local draw_bg = function(id, en, col, sx, sy, fs, fb, fc, px, py, alpha_val)
+        if en == 0 then return end
+        
+        local this_s = configs[id].s
+        local this_e = configs[id].e
+        
+        -- この背景が対象とするテキスト部分のサイズと中心座標
+        local txt_w, txt_h = 0, 0
+        local raw_cx, raw_cy = 0, 0
+        
+        if bg_resize == 1 then
+            if is_multi then
+                local min_x, max_x = 999999, -999999
+                local min_y, max_y = 999999, -999999
+                local found = false
+                for i = this_s, this_e do
+                    local c_info = _G.ZABUTON_V6_CHARS and _G.ZABUTON_V6_CHARS[i]
+                    if c_info then
+                        local hw = c_info.w / 2
+                        local hh = c_info.h / 2
+                        min_x = math.min(min_x, c_info.ox - hw)
+                        max_x = math.max(max_x, c_info.ox + hw)
+                        min_y = math.min(min_y, c_info.oy - hh)
+                        max_y = math.max(max_y, c_info.oy + hh)
+                        found = true
+                    end
+                end
+                if found then
+                    txt_w = max_x - min_x
+                    txt_h = max_y - min_y
+                    raw_cx = (min_x + max_x) / 2
+                    raw_cy = (min_y + max_y) / 2
+                end
+            else
+                -- 個別オブジェクトを使わない場合は全体のサイズを使う
+                if AKIRA_h then
+                    txt_w, txt_h = AKIRA_h.get_text_size()
+                    raw_cx, raw_cy = 0, 0
+                end
+            end
+        end
+
+        -- この背景が他のざぶとん設定から受ける余白の合計を計算
+        local bg_margin_offset = 0
+        for j, c in ipairs(configs) do
+            if j ~= id and c.en ~= 0 then
+                if this_e < c.s then
+                    bg_margin_offset = bg_margin_offset - bg_interlocking_margin
+                elseif this_s > c.e then
+                    bg_margin_offset = bg_margin_offset + bg_interlocking_margin
+                end
+            end
+        end
+        
+        -- ベースとなる文字群の中心座標(raw_cx, raw_cy)と余白を含めた最終座標
+        local final_x = raw_cx + px + bg_margin_offset
+        local final_y = raw_cy + py
+        
+        -- テキストのサイズとトラックバー指定(+sx, +sy)での調整を合成
+        local final_sizex = bg_interlocking_sizex + sx + txt_w
+        local final_sizey = bg_interlocking_sizey + sy + txt_h
+        
+        -- 枠線サイズとぼかしを共通(全体)と個別で合算、色は個別優先
+        local base_fs = bg_interlocking_frame_size + fs
+        local base_fb = bg_interlocking_frame_blur + fb
+        local base_fc = bg_interlocking_frame_col
+        if fs > 0 then
+            base_fc = fc
+        end
+        
+        local final_fs = base_fs
+        if alter_resize == 1 then
+            final_fs = base_fs * text_resize_val
+        end
+
+        obj.load("figure", "四角形", col, 100)
+        obj.effect("リサイズ", "拡大率", 100, "X", final_sizex, "Y", final_sizey)
+        if final_fs > 0 then
+            obj.effect("縁取り", "サイズ", final_fs, "ぼかし", base_fb, "縁色", base_fc)
+        end
+        obj.draw(final_x, final_y, 0, 1, alpha_val / 100)
+    end
+
+    draw_bg(1, bg_enable1, bg_col1, bg_x1, bg_y1, bg_frame_size1, bg_frame_blur1, bg_frame_col1, bg_overall_posx1 + bg_posx1, bg_overall_posy1 + bg_posy1, bg_alpha1)
+    draw_bg(2, bg_enable2, bg_col2, bg_x2, bg_y2, bg_frame_size2, bg_frame_blur2, bg_frame_col2, bg_overall_posx2 + bg_posx2, bg_overall_posy2 + bg_posy2, bg_alpha2)
+    draw_bg(3, bg_enable3, bg_col3, bg_x3, bg_y3, bg_frame_size3, bg_frame_blur3, bg_frame_col3, bg_overall_posx3 + bg_posx3, bg_overall_posy3 + bg_posy3, bg_alpha3)
+    draw_bg(4, bg_enable4, bg_col4, bg_x4, bg_y4, bg_frame_size4, bg_frame_blur4, bg_frame_col4, bg_overall_posx4 + bg_posx4, bg_overall_posy4 + bg_posy4, bg_alpha4)
+    draw_bg(5, bg_enable5, bg_col5, bg_x5, bg_y5, bg_frame_size5, bg_frame_blur5, bg_frame_col5, bg_overall_posx5 + bg_posx5, bg_overall_posy5 + bg_posy5, bg_alpha5)
+
+    obj.copybuffer("object", "cache:text_parts")
+    obj.draw()
+
+    obj.setoption("drawtarget", "framebuffer")
+    obj.load("tempbuffer")
+else
+    -- 最後の文字以外での不要表示を防ぐ
+    obj.clearbuffer("object")
+end

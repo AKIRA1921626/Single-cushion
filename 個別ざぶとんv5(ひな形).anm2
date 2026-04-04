@@ -1,0 +1,196 @@
+--track@bg_interlocking_sizex:ざぶとん全体x,0,2000,200,1
+--track@bg_interlocking_sizey:ざぶとん全体y,0,2000,200,1
+--track@bg_interlocking_margin:ざぶとん左右位置,-2000,2000,0,1
+
+--check@bg_enable1:ざぶとん1,1
+--track@bg_x1:ざぶとん1サイズx,0,2000,0,1
+--track@bg_y1:ざぶとん1サイズy,0,2000,0,1
+--color@bg_col1:ざぶとん1色,0x1919c8
+--track@bg_overall_posx1:ざぶとん1全体x,-100000,100000,0,1
+--track@bg_overall_posy1:ざぶとん1全体y,-100000,100000,0,1
+--track@bg_posx1:ざぶとん1背景x,-100000,100000,-300,1
+--track@bg_posy1:ざぶとん1背景y,-100000,100000,0,1
+--track@bg_alpha1:ざぶとん1透明度,0,100,100,0.1
+--track@bg_text_posx1:ざぶとん1文字x,-100000,100000,0,1
+--track@bg_text_posy1:ざぶとん1文字y,-100000,100000,0,1
+--track@bg_start1:ざぶとん1開始文字(個別オブジェクト時),0,500,1,1
+--track@bg_end1:ざぶとん1終了文字(個別オブジェクト時),0,500,2,1
+--track@bg_frame_size1:ざぶとん1枠線サイズ,0,500,0,1
+--track@bg_frame_blur1:ざぶとん1枠線ぼかし,0,100,0,1
+--color@bg_frame_col1:ざぶとん1枠色,0xf5f5f5
+
+--check@bg_enable2:ざぶとん2,1
+--track@bg_x2:ざぶとん2サイズx,0,2000,0,1
+--track@bg_y2:ざぶとん2サイズy,0,2000,0,1
+--color@bg_col2:ざぶとん2色,0xc81919
+--track@bg_overall_posx2:ざぶとん2全体x,-100000,100000,0,1
+--track@bg_overall_posy2:ざぶとん2全体y,-100000,100000,0,1
+--track@bg_posx2:ざぶとん2背景x,-100000,100000,300,1
+--track@bg_posy2:ざぶとん2背景y,-100000,100000,0,1
+--track@bg_alpha2:ざぶとん2透明度,0,100,100,0.1
+--track@bg_text_posx2:ざぶとん2文字x,-100000,100000,0,1
+--track@bg_text_posy2:ざぶとん2文字y,-100000,100000,0,1
+--track@bg_start2:ざぶとん2開始文字(個別オブジェクト時),0,500,3,1
+--track@bg_end2:ざぶとん2終了文字(個別オブジェクト時),0,500,6,1
+--track@bg_frame_size2:ざぶとん2枠線サイズ,0,500,0,1
+--track@bg_frame_blur2:ざぶとん2枠線ぼかし,0,100,0,1
+--color@bg_frame_col2:ざぶとん2枠色,0xf5f5f5
+
+--group:ざぶとん3-5,false
+
+--check@bg_enable3:ざぶとん3,0
+--track@bg_x3:ざぶとん3サイズx,0,2000,0,1
+--track@bg_y3:ざぶとん3サイズy,0,2000,0,1
+--color@bg_col3:ざぶとん3色,0x641e64
+--track@bg_overall_posx3:ざぶとん3全体x,-100000,100000,0,1
+--track@bg_overall_posy3:ざぶとん3全体y,-100000,100000,0,1
+--track@bg_posx3:ざぶとん3背景x,-100000,100000,0,1
+--track@bg_posy3:ざぶとん3背景y,-100000,100000,0,1
+--track@bg_alpha3:ざぶとん3透明度,0,100,100,0.1
+--track@bg_text_posx3:ざぶとん3文字x,-100000,100000,0,1
+--track@bg_text_posy3:ざぶとん3文字y,-100000,100000,0,1
+--track@bg_start3:ざぶとん3開始文字(個別オブジェクト時),0,500,7,1
+--track@bg_end3:ざぶとん3終了文字(個別オブジェクト時),0,500,10,1
+--track@bg_frame_size3:ざぶとん3枠線サイズ,0,500,0,1
+--track@bg_frame_blur3:ざぶとん3枠線ぼかし,0,100,0,1
+--color@bg_frame_col3:ざぶとん3枠色,0xf5f5f5
+
+--check@bg_enable4:ざぶとん4,0
+--track@bg_x4:ざぶとん4サイズx,0,2000,0,1
+--track@bg_y4:ざぶとん4サイズy,0,2000,0,1
+--color@bg_col4:ざぶとん4色,0x329632
+--track@bg_overall_posx4:ざぶとん4全体x,-100000,100000,0,1
+--track@bg_overall_posy4:ざぶとん4全体y,-100000,100000,0,1
+--track@bg_posx4:ざぶとん4背景x,-100000,100000,600,1
+--track@bg_posy4:ざぶとん4背景y,-100000,100000,0,1
+--track@bg_alpha4:ざぶとん4透明度,0,100,100,0.1
+--track@bg_text_posx4:ざぶとん4文字x,-100000,100000,0,1
+--track@bg_text_posy4:ざぶとん4文字y,-100000,100000,0,1
+--track@bg_start4:ざぶとん4開始文字(個別オブジェクト時),0,500,0,1
+--track@bg_end4:ざぶとん4終了文字(個別オブジェクト時),0,500,0,1
+--track@bg_frame_size4:ざぶとん4枠線サイズ,0,500,0,1
+--track@bg_frame_blur4:ざぶとん4枠線ぼかし,0,100,0,1
+--color@bg_frame_col4:ざぶとん4枠色,0xf5f5f5
+
+--check@bg_enable5:ざぶとん5,0
+--track@bg_x5:ざぶとん5サイズx,0,2000,0,1
+--track@bg_y5:ざぶとん5サイズy,0,2000,0,1
+--color@bg_col5:ざぶとん5色,0xe6e60a
+--track@bg_overall_posx5:ざぶとん5全体x,-100000,100000,0,1
+--track@bg_overall_posy5:ざぶとん5全体y,-100000,100000,0,1
+--track@bg_posx5:ざぶとん5背景x,-100000,100000,-600,1
+--track@bg_posy5:ざぶとん5背景y,-100000,100000,0,1
+--track@bg_alpha5:ざぶとん5透明度,0,100,100,0.1
+--track@bg_text_posx5:ざぶとん5文字x,-100000,100000,800,1
+--track@bg_text_posy5:ざぶとん5文字y,-100000,100000,,1
+--track@bg_start5:ざぶとん5開始文字(個別オブジェクト時),0,500,0,1
+--track@bg_end5:ざぶとん5終了文字(個別オブジェクト時),0,500,0,1
+--track@bg_frame_size5:ざぶとん5枠線サイズ,0,500,0,1
+--track@bg_frame_blur5:ざぶとん5枠線ぼかし,0,100,0,1
+--color@bg_frame_col5:ざぶとん5枠色,0xf5f5f5
+--group
+
+--check@bg_resize:ざぶとんのサイズをテキストのサイズに合わせる,1
+--check@alter_resize:枠線のサイズをテキストのサイズに合わせる,1
+
+-- 外部モジュールの読み込み
+local status, join_mod = pcall(require, "Individual_object_join")
+local condition, AKIRA_helper = pcall(require, "AKIRA_aviutl2_helper")
+
+local AKIRA_h = (condition and AKIRA_helper) or nil
+local canvas_w, canvas_h = 2000, 1000
+local is_multi = obj.getoption("multi_object")
+local idx = obj.index + 1
+
+-- テキスト全体の中心を基準に左右移動量を計算する内部関数
+-- current_x: 判定対象のX座標, margin: 移動量
+local calculate_relative_move = function(avg_x, margin)
+    -- テキストは通常中心(0,0)を基準に左右に広がるため、
+    -- 0より左(負)なら左グループ、右(正)なら右グループと判定
+    if avg_x < -0 then
+        -- (a) グループ：中心より左にあるので左へ移動
+        return -math.abs(margin)
+    elseif avg_x > 0 then
+        -- (b) グループ：中心より右にあるので右へ移動
+        return math.abs(margin)
+    else
+        return 0
+    end
+end
+
+-- 文字描画フェーズ
+if obj.index == 0 then
+    obj.setoption("drawtarget", "tempbuffer", canvas_w, canvas_h)
+    obj.clearbuffer("tempbuffer")
+end
+
+obj.setoption("drawtarget", "tempbuffer")
+
+local scale = obj.sx
+local alpha = obj.getvalue("alpha")
+
+local target_ox, target_oy = obj.ox, obj.oy
+local is_target_char = false
+
+if is_multi then
+    local configs = {
+        {en = bg_enable1, s = bg_start1, e = bg_end1, px = bg_overall_posx1 + bg_text_posx1, py = bg_overall_posy1 + bg_text_posy1},
+        {en = bg_enable2, s = bg_start2, e = bg_end2, px = bg_overall_posx2 + bg_text_posx2, py = bg_overall_posy2 + bg_text_posy2},
+        {en = bg_enable3, s = bg_start3, e = bg_end3, px = bg_overall_posx3 + bg_text_posx3, py = bg_overall_posy3 + bg_text_posy3},
+        {en = bg_enable4, s = bg_start4, e = bg_end4, px = bg_overall_posx4 + bg_text_posx4, py = bg_overall_posy4 + bg_text_posy4},
+        {en = bg_enable5, s = bg_start5, e = bg_end5, px = bg_overall_posx5 + bg_text_posx5, py = bg_overall_posy5 + bg_text_posy5},
+    }
+
+    for i, c in ipairs(configs) do
+        if c.en ~= 0 and idx >= c.s and idx <= c.e then
+            -- obj.ox はテキスト中心からの相対距離
+            local move_val = calculate_relative_move(obj.ox, bg_interlocking_margin)
+            
+            target_ox = obj.ox + c.px + move_val
+            target_oy = obj.oy + c.py
+            is_target_char = true
+            break
+        end
+    end
+end
+
+if not is_target_char then
+    target_ox = obj.ox
+    target_oy = obj.oy
+end
+
+obj.draw(target_ox, target_oy, obj.oz, scale, alpha, obj.rx, obj.ry, obj.rz)
+obj.load("tempbuffer")
+
+-- 背景描画・合成フェーズ
+if obj.index == obj.num - 1 then
+    obj.copybuffer("cache:text_parts", "tempbuffer")
+    obj.clearbuffer("tempbuffer")
+
+    local draw_bg = function(id, en, col, sx, sy, fs, fb, fc, px, py, alpha_val)
+        if en == 0 then return end
+        
+        -- 背景の座標 px もテキスト中心(0)基準で左右を判定
+        local move_val = calculate_relative_move(px, bg_interlocking_margin)
+        local final_x = px + move_val
+        
+        obj.load("figure", "四角形", col, 100)
+        obj.effect("リサイズ", "拡大率", 100, "X", bg_interlocking_sizex + sx, "Y", bg_interlocking_sizey + sy)
+        if fs > 0 then
+            obj.effect("縁取り", "サイズ", fs, "ぼかし", fb, "縁色", fc)
+        end
+        obj.draw(final_x, py, 0, 1, alpha_val / 100)
+    end
+
+    draw_bg(1, bg_enable1, bg_col1, bg_x1, bg_y1, bg_frame_size1, bg_frame_blur1, bg_frame_col1, bg_overall_posx1 + bg_posx1, bg_overall_posy1 + bg_posy1, bg_alpha1)
+    draw_bg(2, bg_enable2, bg_col2, bg_x2, bg_y2, bg_frame_size2, bg_frame_blur2, bg_frame_col2, bg_overall_posx2 + bg_posx2, bg_overall_posy2 + bg_posy2, bg_alpha2)
+    draw_bg(3, bg_enable3, bg_col3, bg_x3, bg_y3, bg_frame_size3, bg_frame_blur3, bg_frame_col3, bg_overall_posx3 + bg_posx3, bg_overall_posy3 + bg_posy3, bg_alpha3)
+    draw_bg(4, bg_enable4, bg_col4, bg_x4, bg_y4, bg_frame_size4, bg_frame_blur4, bg_frame_col4, bg_overall_posx4 + bg_posx4, bg_overall_posy4 + bg_posy4, bg_alpha4)
+    draw_bg(5, bg_enable5, bg_col5, bg_x5, bg_y5, bg_frame_size5, bg_frame_blur5, bg_frame_col5, bg_overall_posx5 + bg_posx5, bg_overall_posy5 + bg_posy5, bg_alpha5)
+
+    obj.copybuffer("object", "cache:text_parts")
+    obj.draw()
+
+    obj.setoption("drawtarget", "framebuffer")
+    obj.load("tempbuffer")
+end
