@@ -1,3 +1,5 @@
+--lable:装飾
+
 --track@bg_interlocking_sizex:ざぶとん全体x,0,2000,0,1
 --track@bg_interlocking_sizey:ざぶとん全体y,0,2000,0,1
 --track@bg_interlocking_margin:ざぶとん左右余白,-2000,2000,20,1
